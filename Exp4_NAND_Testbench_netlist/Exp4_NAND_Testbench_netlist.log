@@ -1,0 +1,103 @@
+T-Spice - Tanner SPICE
+Version 2019.2
+License validated.
+Product Release ID: T-Spice Linux 2019.2.20191010.20:08:57
+Copyright (C)1988-2019 Mentor, a Siemens Business
+
+Input folder         = /home/vlsilab/pes283/
+Output folder        = /home/vlsilab/pes283/Exp4_NAND_Testbench_netlist
+
+	Parsing "/home/vlsilab/pes283/Exp4_NAND_Testbench_netlist.sp"
+	Reading library entry "tt" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "GEN" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "GEN_LVS" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "Diodes" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "RES_CAP_GEN" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "SIM_SUBCIRCUITS" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "TT_NMOS" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "NMOS_MODEL" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "TT_PMOS" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "PMOS_MODEL" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "RES_TYP" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "RES_SUBCIRCUITS" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "CAP_TYP" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "CAP_SUBCIRCUITS" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "TT_Bipolar" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+	Reading library entry "Bipolars" from "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Models/Generic_250nm.lib"
+
+Start of Exp4_NAND_Testbench_netlist.sp
+Loaded BSIM3v33 model library, Berkeley BSIM3 v3.3.0
+Loaded BSIM3v31 model library, Berkeley BSIM3 v3.1.0 with extensions
+Loaded BJT model library, Gummel-Poon Bipolar with extensions
+Warning : "Exp4_NAND_Testbench_netlist.sp" line 57 .measure IN_A_RT trig value contains an invalid plot item and will be ignored.
+        : "Exp4_NAND_Testbench_netlist.sp" line 57 Unknown variable "Vpwr" ["(Vpwr-0)*10/100+0" at column 2]
+Warning : "Exp4_NAND_Testbench_netlist.sp" line 57 .measure IN_A_RT targ value contains an invalid plot item and will be ignored.
+        : "Exp4_NAND_Testbench_netlist.sp" line 57 Unknown variable "Vpwr" ["(Vpwr-0)*90/100+0" at column 2]
+Warning : "Exp4_NAND_Testbench_netlist.sp" line 58 .measure IN_B_RT trig value contains an invalid plot item and will be ignored.
+        : "Exp4_NAND_Testbench_netlist.sp" line 58 Unknown variable "Vpwr" ["(Vpwr-0)*10/100+0" at column 2]
+Warning : "Exp4_NAND_Testbench_netlist.sp" line 58 .measure IN_B_RT targ value contains an invalid plot item and will be ignored.
+        : "Exp4_NAND_Testbench_netlist.sp" line 58 Unknown variable "Vpwr" ["(Vpwr-0)*90/100+0" at column 2]
+Warning : "Exp4_NAND_Testbench_netlist.sp" line 59 .measure OUTRT trig value contains an invalid plot item and will be ignored.
+        : "Exp4_NAND_Testbench_netlist.sp" line 59 Unknown variable "Vpwr" ["(Vpwr-0)*10/100+0" at column 2]
+
+Warning : Disabling printout of duplicate warning messages.
+        : 	Use '.options maxmsg=0' to view all warnings,
+        : 	or increase maxmsg from 5 to view more messages.
+
+
+General options:
+        threads = 1
+
+Output options:
+         prtdel = 1e-11
+
+Probing options:
+         probev = 1
+
+ Device and node counts:
+              MOSFETs -       4
+    MOSFET geometries -       2
+      Voltage sources -       3
+   Subckt Definitions -       2
+     Subckt Instances -       1
+     Unique Instances -       1
+    Model Definitions -       9
+      Computed Models -       2
+    Independent nodes -       2
+       Boundary nodes -       4
+          Total nodes -       6
+*** 6 WARNING MESSAGES GENERATED DURING SETUP
+
+
+	Opening simulation database "/home/vlsilab/pes283/Exp4_NAND_Testbench_netlist.tsim"
+
+Power Results
+
+vv1 from time 0 to 2e-07
+Average power consumed -> 7.989569e-07 watts
+Max power 1.702167e-04 at time 4.0505e-08 
+Min power 0.000000e+00 at time 0 
+
+vv2 from time 0 to 2e-07
+Average power consumed -> 7.650743e-07 watts
+Max power 2.534210e-04 at time 7.05387e-08 
+Min power 0.000000e+00 at time 0 
+
+vv3 from time 0 to 2e-07
+Average power consumed -> 9.065780e-05 watts
+Max power 4.127931e-03 at time 1.60485e-07 
+Min power 4.884824e-11 at time 2.885e-09 
+
+
+Measure information will be written to file "/home/vlsilab/pes283/Exp4_NAND_Testbench_netlist/Exp4_NAND_Testbench_netlist.measure"
+
+
+
+Parsing                      0.10 seconds
+Setup                        0.03 seconds
+Transient Analysis           1.28 seconds
+Output                       0.35 seconds
+-----------------------------------------
+Total                        1.69 seconds
+
+Simulation completed	with  6 Warnings

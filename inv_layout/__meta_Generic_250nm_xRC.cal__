@@ -1,0 +1,2 @@
+DRC ICSTATION YES
+INCLUDE "/home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_xRC.cal"

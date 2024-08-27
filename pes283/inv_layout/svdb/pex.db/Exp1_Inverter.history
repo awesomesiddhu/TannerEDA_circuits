@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Mon Jan 30 14:11:34 2023 " "v2021.3_23.13" "-xrc -pdb -rcc -turbo 1 /home/vlsilab/pes283/pes283/inv_layout/_Generic_250nm_xRC.cal_"
+"Mon Jan 30 14:11:35 2023 " "v2021.3_23.13" "-xrc -fmt -all /home/vlsilab/pes283/pes283/inv_layout/_Generic_250nm_xRC.cal_"

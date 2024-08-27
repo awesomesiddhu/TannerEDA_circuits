@@ -1,0 +1,3 @@
+mgc_rve_context_lcv "NORlayout" "Exp4_NOR" "layout" 1000
+me 2 17.71 10.8 23.45 10.8 17.71 11.135 23.45 11.135
+mgc_rve_zoom 16.48 10.729 24.68 11.206 1

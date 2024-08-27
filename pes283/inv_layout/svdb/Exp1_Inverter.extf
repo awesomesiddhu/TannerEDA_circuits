@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1675068091 1675068092
+lvs_ExtOutFile RUNDIR /home/vlsilab/pes283/pes283/inv_layout
+lvs_ExtOutFile RULES_FILE /home/vlsilab/pes283/pes283/inv_layout/_Generic_250nm_xRC.cal_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/vlsilab/pes283/pes283/inv_layout/svdb/Exp1_Inverter.sp
+lvs_ExtOutFile EXTRACTION_REPORT Exp1_Inverter.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/Exp1_Inverter.pdsp }

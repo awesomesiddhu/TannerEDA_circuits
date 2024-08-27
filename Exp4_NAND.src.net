@@ -1,0 +1,39 @@
+* SPICE export by:  S-Edit 2019.2.3
+* Export time:      Mon Feb  6 15:39:37 2023
+* Design path:      /home/vlsilab/pes283/pes283/lib.defs
+* Library:          pes283
+* Cell:             Exp4_NAND
+* Testbench:        Spice
+* View:             schematic
+* Export as:        subcircuit definition
+* Export mode:      hierarchical
+* Exclude empty:    no
+* Exclude .model:   no
+* Exclude .hdl:     no
+* Exclude .end:     no
+* Expand paths:     no
+* Wrap lines:       no
+* Exclude simulator commands:  no
+* Exclude global pins:         no
+* Exclude instance locations:  no
+* Control property name(s):    LVS SPICE
+
+.SUBCKT NMOS25 D G S B
+.ENDS
+.SUBCKT PMOS25 D G S B
+.ENDS
+.SUBCKT NMOS33 D G S B
+.ENDS
+.SUBCKT PMOS33 D G S B
+.ENDS
+
+*************** Subcircuits *****************
+.subckt Exp4_NAND A B Out Gnd Vdd 
+MMn1 N_1 A Gnd Gnd NMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m $ $x=4600 $y=2400 $w=400 $h=600
+MMn2 N_1 B Out Gnd NMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m $ $x=5000 $y=4000 $w=400 $h=600 $r=180
+MMp1 Out A Vdd Vdd PMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m $ $x=3600 $y=5600 $w=400 $h=600
+MMp2 Out B Vdd Vdd PMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m $ $x=5700 $y=5600 $w=400 $h=600 $m
+.ends
+
+
+

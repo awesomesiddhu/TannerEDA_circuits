@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/vlsilab/pes283
+pex_PexParam LAYOUT_PRIMARY Exp4_NAND
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {Exp4_NAND "" Exp4_NAND.pdb "" } } 

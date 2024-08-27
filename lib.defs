@@ -1,0 +1,10 @@
+INCLUDE /home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Generic_250nm/lib.defs
+INCLUDE /home/vlsilab/Tanner_EDA/Tanner_Tools_v2019.2/Process/Standard_Libraries/lib.defs
+DEFINE pes283 pes283
+ASSIGN pes283 libMode shared
+DEFINE inv_layout inv_layout
+ASSIGN inv_layout libMode shared
+DEFINE Exp4_NAND_1 pes283\Exp4_NAND_1
+ASSIGN Exp4_NAND_1 libMode shared
+DEFINE NORlayout pes283/NORlayout
+ASSIGN NORlayout libMode shared

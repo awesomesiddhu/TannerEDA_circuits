@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/vlsilab/pes283/pes283/inv_layout
+pex_PexParam LAYOUT_PRIMARY Exp1_Inverter
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {Exp1_Inverter "" Exp1_Inverter.pdb "" } } 
